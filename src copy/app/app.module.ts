@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,7 +10,6 @@ import { ListComponent } from './list/list.component';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { DeleteComponent } from './delete/delete.component';
-import { CommentboxComponent } from './commentbox/commentbox.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +19,7 @@ import { CommentboxComponent } from './commentbox/commentbox.component';
     ListComponent,
     AddComponent,
     EditComponent,
-    DeleteComponent,
-    CommentboxComponent
+    DeleteComponent
   ],
   imports: [
     BrowserModule,
